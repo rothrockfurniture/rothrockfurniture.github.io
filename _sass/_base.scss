@@ -115,7 +115,7 @@ aside {
             color: rgba(white, .7);
             &:hover,
             &:focus {
-                color: white;
+                color: $theme-primary;
             }
         }
         .nav > li > a,
@@ -283,6 +283,14 @@ header {
         margin: 0 auto 20px;
     }
 }
+.full-height {
+    min-height: 100vh;
+}
+
+.centered-vertical-container {
+    display: flex;
+    align-items: center;
+  }
 
 // Bootstrap Overrides
 .text-primary {
